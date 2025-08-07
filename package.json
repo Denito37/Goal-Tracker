@@ -1,0 +1,20 @@
+{
+  "name": "goal_tracker",
+  "version": "1.0.0",
+  "description": "A Firefox browser extension designed to help users track and document their progress towards personal goals.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Denito37/Goal-Tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Denito37/Goal-Tracker/issues"
+  },
+  "homepage": "https://github.com/Denito37/Goal-Tracker#readme"
+}
