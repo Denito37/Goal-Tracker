@@ -1,14 +1,15 @@
-# Goal Tracker Browser Extension
+# Goal Tracker Browser Extension(In Development)
 
 A Firefox browser extension designed to help users track and document their progress towards personal goals.
 
 ## Features
 
-- Track multiple goals simultaneously
-- Add daily progress updates
+- Create Goals
+- Track progress on multiple goals
+- Write entries to document your progress
 - Set deadlines
 
-## Installation
+## Installation (When Released)
 
 1. Download the extension from Firefox Add-ons
 2. Click "Add to Firefox"
@@ -18,7 +19,7 @@ A Firefox browser extension designed to help users track and document their prog
 
 1. Click the Goal Tracker icon in your browser toolbar
 2. Add a new goal by clicking "+" button
-3. Write daily updates about your progress
+3. Write daily entries about your progress
 
 ## Contributing
 
