@@ -11,14 +11,6 @@ export default function Sidebar() {
         <Router>
             <div className="sidebar">
                 <Header />
-                <nav>
-                    <Link to="/">Login</Link>
-                    <Link to="/goals">Goals</Link>
-                    <Link to="/goalform">GoalForm</Link>
-                    <Link to="/entries">entries</Link>
-                    <Link to="/entryform">EntryForm</Link>
-                </nav>
-                
                 <Routes>
                     <Route path="/" element={<Login />} />
                     <Route path="/goals" element={<Goals />} />
@@ -32,7 +24,8 @@ export default function Sidebar() {
 }
 /**
 TODO:
- *  - install required packages (react, react-dom, react-router typescriptSupport, Auth0, etc.)
+ * - swap goal button with text input that by default creates a new goal when no goal is there & adds new entry to most recent goal by default
+ *  - install required packages (react, react-dom, react-router typescriptSupport, Auth0, etc.) : half done
  *  - Get extension to work in dev mode
  *  - build out components
  *  - style components
