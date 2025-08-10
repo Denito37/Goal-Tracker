@@ -1,15 +1,34 @@
-import Header from "./components/header/header.tsx"
-import Goal from "./components/goal/goal.tsx"
-import AddGoal from "./components/addGoal/addGoal.tsx"
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import Login from "./pages/login.tsx";
+import Goals from "./pages/goals.tsx";
+import Header from "./components/header/header.tsx";
+import GoalForm from "./pages/goalForm.tsx";
+import Entries from "./pages/entries.tsx";
+import EntryForm from "./pages/entryForm.tsx";
 
 export default function Sidebar() {
-    return(
-        <div className="sidebar" >
-            <Header />
-            <Goal goals ={{text:"hi"}} />
-            <AddGoal />
-        </div>
-    )
+    return (
+        <Router>
+            <div className="sidebar">
+                <Header />
+                <nav>
+                    <Link to="/">Login</Link>
+                    <Link to="/goals">Goals</Link>
+                    <Link to="/goalform">GoalForm</Link>
+                    <Link to="/entries">entries</Link>
+                    <Link to="/entryform">EntryForm</Link>
+                </nav>
+                
+                <Routes>
+                    <Route path="/" element={<Login />} />
+                    <Route path="/goals" element={<Goals />} />
+                    <Route path="/goalform" element={<GoalForm />} />
+                    <Route path="/entries" element={<Entries />} />
+                    <Route path="/entryform" element={<EntryForm />} />
+                </Routes>
+            </div>
+        </Router>
+    );
 }
 /**
 TODO:
