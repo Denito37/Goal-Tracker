@@ -12,8 +12,8 @@ export default function Sidebar() {
     )
 }
 /**
- TODO:
- *  - install required packages (react, react-dom, typescriptSupport, Auth0, etc.)
+TODO:
+ *  - install required packages (react, react-dom, react-router typescriptSupport, Auth0, etc.)
  *  - Get extension to work in dev mode
  *  - build out components
  *  - style components

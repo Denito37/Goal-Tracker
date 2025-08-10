@@ -1,0 +1,23 @@
+:root{
+    --bgColor: #E8F7FF;
+    --placeholderColor: #696969;
+    --textColor: #333;
+    --outlineColor: #CDE5F7;
+}
+
+.sidebar{
+    background-color: var(--bgColor);
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textbox{
+    border: 3px solid var(--outlineColor);
+    border-radius: 0.5rem;
+    .placeholderText{
+        color: var(--placeholderColor);
+    }
+    color: var(--textColor);
+}

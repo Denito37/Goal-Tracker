@@ -1,6 +1,6 @@
 export default function header(){
     return(
-        <header>
+        <header className="title">
             Goal Tracker
         </header>
     )

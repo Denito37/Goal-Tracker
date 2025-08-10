@@ -1,0 +1,14 @@
+:root{
+    --titleColor: #487392
+    --titleFont: "Jersey", sans-serif;
+    --titleSize: 4rem;
+}
+.title{
+    font-family: var(--titleFont);
+    font-size: var(--titleSize);
+    font-weight: bold;
+    text-align: center;
+    margin: 1rem;
+    color: var(--titleColor);
+    text-transform: uppercase;
+}
