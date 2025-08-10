@@ -6,7 +6,7 @@ export default function Sidebar() {
     return(
         <div className="sidebar" >
             <Header />
-            <Goal />
+            <Goal goals ={{text:"hi"}} />
             <AddGoal />
         </div>
     )

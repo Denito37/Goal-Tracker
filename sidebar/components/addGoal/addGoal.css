@@ -1,0 +1,18 @@
+:root{
+    --buttonColor: #85C5E8;
+}
+
+.addGoalButton{
+    background-color: var(--buttonColor);
+    border: none;
+    border-radius: 0.5rem;
+    color: white;
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+        background-color: darken(var(--buttonColor), 10%);
+    }
+}
