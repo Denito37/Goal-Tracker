@@ -1,13 +1,9 @@
 export default function Goal({goals}){
-    const goalList = goals.forEach(goal => {
-        <div className="goal" onClick={() => console.log("Placeholder for goal click action")}>
-            <p className="goalText">{goal.text}</p>
-            <small>{goal.deadline}</small>
-        </div>
-    });
+    const goToEntries = console.log("Placeholder for goal click action")
     return(
-        <div className="goalList">
-            {goalList}
+        <div className="goal" onClick={() => goToEntries}>
+            <p className="goalText">{goals.text}</p>
+            <small>{goals.deadline}</small>
         </div>
     )
 }

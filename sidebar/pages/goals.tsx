@@ -1,8 +1,13 @@
-export default function Goals(){
+import Goal from "../components/goal/goal.tsx"
+
+export default function Goals({goals}){
+    const goalList = goals.forEach(goal => {
+        return <Goal key={goal.id} goals={goal} />;
+        
+    });
     return (
-        <div className="goals">
-            <h2>Goals Page</h2>
-            {/* Add your goals content here */}
+        <div className="goalsPage">
+            {goalList}
         </div>
     );
 }

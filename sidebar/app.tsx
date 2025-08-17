@@ -12,8 +12,8 @@ export default function Sidebar() {
             <div className="sidebar">
                 <Header />
                 <Routes>
-                    <Route path="/" element={<Login />} />
-                    <Route path="/goals" element={<Goals />} />
+                    <Route index element={<Login />} />
+                    <Route path="/goals" element={<Goals goals={{}} />} />
                     <Route path="/goalform" element={<GoalForm />} />
                     <Route path="/entries" element={<Entries />} />
                     <Route path="/entryform" element={<EntryForm />} />

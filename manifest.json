@@ -4,7 +4,6 @@
     "version": "1.0",
     "description": "A browser extension to track your goals",
     
-    "icons": "icons/GT.svg",
 
     "permissions": [
         "storage",
@@ -13,7 +12,6 @@
     ],
 
     "sidebar_action": {
-        "default_icon":"icons/GT.svg",
         "default_title": "Goal Tracker",
         "default_panel": "sidebar/index.html"
     },
